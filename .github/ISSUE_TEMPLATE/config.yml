@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Play the game
+    url: https://grothendieck.space/
+    about: The game itself, free in the browser, English and Chinese.
+  - name: Contact the author
+    url: mailto:vincent.liu@wisemotif.ai
+    about: Permission requests, errata and private correspondence.

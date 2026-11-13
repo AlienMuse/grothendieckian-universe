@@ -1,0 +1,29 @@
+name: Erratum
+description: Report a mistake in a level — a wrong claim, a misprinted quotation, or a level that cannot be solved.
+title: "[Erratum] S00-00: "
+labels: ["erratum"]
+body:
+  - type: input
+    id: level
+    attributes:
+      label: Level and puzzle
+      description: The level (for example S03-04) and the puzzle as the game names it.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What the game says
+      description: The sentence, formula or quotation as shown, verbatim.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What it should say
+      description: If the fault is in the book itself, quote the printed source and its chapter.
+  - type: input
+    id: device
+    attributes:
+      label: Device and language
+      description: Browser, phone or desktop, and the interface language.
