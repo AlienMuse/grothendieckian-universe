@@ -146,7 +146,7 @@ Requests: [vincent.liu@wisemotif.ai](mailto:vincent.liu@wisemotif.ai). See [NOTI
 - [**AlienMuse.space**](https://alienmuse.space/) — the author's own site: the Programme, the works and the essays.
 - [**Grothendieck Lab**](https://grothendiecklab.com/) — the Programme's official site: the seven works with their
   pages and DOIs.
-- [**The works this game is built from**](https://grothendiecklab.com/works/) — each work, its licence and its record.
+- [**The works this game is built from**](https://grothendiecklab.com/#works) — each work, its licence and its record.
 
 ## Authenticity
 
