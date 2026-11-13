@@ -129,7 +129,7 @@ Grothendieckian Universe 是一款浏览器益智解谜游戏，取材于 Vincen
 
 - [**AlienMuse.space**](https://alienmuse.space/) —— 作者个人主页：整个 Programme、各部著作与文章。
 - [**Grothendieck Lab**](https://grothendiecklab.com/) —— Programme 的官方站点：七部著作、它们的页面与 DOI。
-- [**本游戏取材的著作**](https://grothendiecklab.com/works/) —— 每一部著作、其许可与记录。
+- [**本游戏取材的著作**](https://grothendiecklab.com/zh/#works) —— 每一部著作、其许可与记录。
 
 ## 真伪
 
