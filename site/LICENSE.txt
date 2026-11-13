@@ -1,0 +1,31 @@
+GROTHENDIECKIAN UNIVERSE
+
+Grothendieckian Universe is a puzzle game made from the seven works of The Grothendieckian Programme by Vincent Liu (WiseMotif.ai). Every level is one idea of a book; every quotation is the book's own words, with its chapter.
+
+The game — its code, design, levels, scenes, art and sound — © 2026 Vincent Liu. All rights reserved.
+The game's own words (titles, lines, hints and cards): CC BY-NC-ND 4.0.
+Quotations from the works keep each work's licence, as printed on its copyright page: CC BY-NC-ND 4.0.
+Text and data mining of the game and its words is reserved.
+
+The works quoted:
+  S01  GAI-MUA: The Grothendieckian Machine  https://doi.org/10.5281/zenodo.23480696  (CC BY-NC-ND 4.0)
+  S02  GM-Omega-Infinity: Topos-Native Intelligence  https://doi.org/10.5281/zenodo.23538544  (CC BY-NC-ND 4.0)
+  S03  Arithmetic Spectral Descent  https://doi.org/10.5281/zenodo.23564898  (CC BY-NC-ND 4.0)
+  S04  Fractured Adelic Geometry  https://doi.org/10.5281/zenodo.23585887  (CC BY-NC-ND 4.0)
+  S05  The Archimedean Prism  https://doi.org/10.5281/zenodo.23597954  (CC BY-NC-ND 4.0)
+  S06  Strained Prismatic Geometry  https://doi.org/10.5281/zenodo.23610034  (CC BY-NC-ND 4.0)
+  S07  The Arithmetic Topos  https://doi.org/10.5281/zenodo.23629681  (CC BY-NC-ND 4.0)
+
+Free to do: play; teach with it in a class; stream it, record it, review it and make videos about it, including the usual revenue a creator's platform pays.
+
+Needs written permission first: brand or commercial promotion; paid courses and training; commercial events and exhibitions; any use of the game or its levels, art, sound or images in a commercial product or service; adaptations and ports.
+
+Not allowed: copying, mirroring or republishing the game itself.
+
+Licensing: vincent.liu@wisemotif.ai
+
+Third-party parts:
+  three.js: MIT (licences/three-LICENSE.txt)
+  TeX Gyre Pagella (TGP faces): GUST Font License (fonts/GUST-FONT-LICENSE.txt)
+  STIX Two Math (TGP Symbol Math): SIL Open Font License 1.1 (fonts/OFL-STIX-Two.txt)
+  Orbitron: SIL Open Font License 1.1 (fonts/OFL-Orbitron.txt)

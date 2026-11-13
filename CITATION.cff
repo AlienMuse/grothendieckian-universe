@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you write about, teach with or cite this game, please cite it as below."
+type: software
+title: "Grothendieckian Universe"
+abstract: "A puzzle game of the seven works of The Grothendieckian Programme by Vincent Liu: seven worlds, 57 levels and 221 puzzles on descent, topos theory, the Riemann Hypothesis, BSD, Hodge, abc and Langlands, each level one idea of a book."
+authors:
+  - family-names: "Liu"
+    given-names: "Vincent"
+    affiliation: "WiseMotif.ai"
+    email: "vincent.liu@wisemotif.ai"
+    orcid: "https://orcid.org/0009-0000-8718-222X"
+version: "1.0.0"
+date-released: "2026-11-13"
+url: "https://grothendieck.space/"
+repository-code: "https://github.com/AlienMuse/grothendieckian-universe"
+license: "CC-BY-NC-ND-4.0"
+keywords:
+  - "puzzle game"
+  - "mathematics"
+  - "Grothendieck"
+  - "descent"
+  - "topos theory"
+  - "sheaf theory"
+  - "Riemann Hypothesis"
+  - "Birch and Swinnerton-Dyer"
+  - "Hodge conjecture"
+  - "abc conjecture"
+  - "Langlands programme"
