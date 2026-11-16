@@ -1,0 +1,71 @@
+@font-face { font-family: "Orbitron"; src: url(fonts/orbitron.woff2) format("woff2"); font-style: normal; font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "TGP Pagella"; src: url(fonts/pagella-regular.woff2) format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: "TGP Pagella"; src: url(fonts/pagella-italic.woff2) format("woff2"); font-style: italic; font-weight: 400; font-display: swap; }
+@font-face { font-family: "TGP Pagella"; src: url(fonts/pagella-bold.woff2) format("woff2"); font-style: normal; font-weight: 700; font-display: swap; }
+@font-face { font-family: "TGP Pagella Math"; src: url(fonts/pagella-math.woff2) format("woff2"); font-style: normal; font-weight: 400; font-display: swap; unicode-range: U+2102, U+211A, U+211D, U+2124, U+1D419, U+1D4AA, U+1D4B0, U+1D4B1, U+1D4B2, U+1D516, U+1D51B, U+1D53D, U+1D543, U+1D7CF; }
+@font-face { font-family: "TGP Symbol Math"; src: url(fonts/symbol-math.woff2) format("woff2"); font-style: normal; font-weight: 400; font-display: swap; unicode-range: U+0428, U+2070, U+2074, U+2075, U+2076, U+2077, U+2078, U+2079, U+207B, U+207F, U+2080, U+2081, U+2082, U+2083, U+2084, U+2085, U+2086, U+2087, U+2088, U+2089, U+208A, U+208B; }
+
+:root { --ink: #e9f1ff; --ink2: #b4c2d8; --ink3: #8495ae; --cyan: #7fe9de; --line: rgba(178, 206, 255, .16);
+  --f-site: "Orbitron", "TGP Pagella", "TGP Pagella Math", "TGP Symbol Math", sans-serif;
+  --f-work: "TGP Pagella", "TGP Pagella Math", "TGP Symbol Math", "Palatino Linotype", Palatino, serif; color-scheme: dark; }
+[lang|="zh"] { --f-site: "Orbitron", "TGP Pagella", "TGP Pagella Math", "TGP Symbol Math", "PingFang SC", "PingFangTC-Regular", "Hiragino Sans GB", "MiSans", "HarmonyOS Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", sans-serif;
+  --f-work: "TGP Pagella", "TGP Pagella Math", "TGP Symbol Math", "Palatino Linotype", Palatino, "PingFang SC", "PingFangTC-Regular", "Hiragino Sans GB", "MiSans", "HarmonyOS Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", serif; }
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; color: var(--ink); font: 400 19px/1.62 var(--f-work); background-color: #02030a;
+  background-image: radial-gradient(120% 70% at 50% -10%, rgba(88, 222, 212, .10), transparent 60%),
+                    radial-gradient(90% 60% at 100% 30%, rgba(130, 164, 255, .07), transparent 70%);
+  background-attachment: fixed; }
+a { color: var(--cyan); text-decoration: none; border-bottom: 1px solid rgba(127, 233, 222, .35); }
+a:hover, a:focus-visible { border-bottom-color: var(--cyan); }
+.wrap { width: min(1080px, 100% - 48px); margin: 0 auto; }
+.glass { background: linear-gradient(180deg, rgba(14, 20, 34, .78), rgba(6, 10, 20, .72)); border: 1px solid var(--line);
+  border-radius: 6px; box-shadow: inset 0 1px 0 rgba(255, 255, 255, .05), 0 18px 40px rgba(0, 0, 0, .35); }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: max(20px, env(safe-area-inset-top)) 0 12px; }
+.brand { display: inline-flex; align-items: center; gap: 12px; border: 0; color: var(--ink); font: 600 13px/1 var(--f-site);
+  letter-spacing: .2em; text-transform: uppercase; }
+.brand img { display: block; border-radius: 4px; }
+.nav { display: flex; align-items: center; gap: 10px; }
+.btn, .lang { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px;
+  border: 1px solid var(--line); border-radius: 3px; color: var(--ink); font: 500 13px/1 var(--f-site); letter-spacing: .18em;
+  text-transform: uppercase; background: rgba(6, 10, 20, .55); }
+.btn:hover, .lang:hover, .btn:focus-visible, .lang:focus-visible { border-color: var(--cyan); color: var(--cyan); }
+.btn.primary { border-color: rgba(127, 233, 222, .6); color: var(--cyan); padding: 0 26px; }
+.hero { padding: 56px 0 8px; }
+.kicker { margin: 0 0 14px; color: var(--cyan); font: 500 13px/1.4 var(--f-site); letter-spacing: .28em; text-transform: uppercase; }
+h1 { margin: 0 0 18px; font: 400 clamp(36px, 6vw, 64px)/1.08 var(--f-work); letter-spacing: .005em; }
+.lede { margin: 0 0 32px; max-width: 42em; color: var(--ink); font: italic 400 clamp(20px, 2.4vw, 25px)/1.45 var(--f-work); }
+.shot { margin: 0 0 36px; overflow: hidden; padding: 0; }
+.shot img { display: block; width: 100%; height: auto; }
+[lang|="zh"] .lede { font-style: normal; }
+.intro p, .sec p, .sec li { max-width: 46em; color: var(--ink2); }
+.intro p:first-child { color: var(--ink); }
+.cta { margin: 28px 0 0; }
+.cta.end { margin: 8px 0 64px; }
+.sec { padding: 52px 0 4px; border-top: 1px solid var(--line); margin-top: 44px; }
+.sec-h { margin: 0 0 22px; font: 600 15px/1.3 var(--f-site); letter-spacing: .24em; text-transform: uppercase; color: var(--ink); }
+.sec ol, .sec ul { padding-left: 1.3em; }
+.sec li { margin: 0 0 12px; }
+.sec strong { color: var(--ink); font-weight: 700; }
+.sec table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.sec th, .sec td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--ink2); }
+.worlds { list-style: none; padding: 0; margin: 28px 0 8px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.world { padding: 22px 24px 18px; margin: 0; }
+.w-k { margin: 0 0 6px; color: var(--cyan); font: 600 13px/1 var(--f-site); letter-spacing: .26em; }
+.w-k strong { color: var(--cyan); font-weight: 600; }
+.w-n { margin: 0 0 8px; font: 400 24px/1.25 var(--f-work); color: var(--ink); }
+.w-m { margin: 0 0 14px !important; display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--ink3) !important;
+  font: 500 12px/1.5 var(--f-site); letter-spacing: .12em; text-transform: uppercase; }
+.w-m em { font-style: normal; }
+.w-t p { margin: 0 0 10px; font-size: 17px; line-height: 1.55; }
+.foot { padding: 28px 0 max(32px, env(safe-area-inset-bottom)); border-top: 1px solid var(--line); color: var(--ink3);
+  font: 500 12px/1.8 var(--f-site); letter-spacing: .12em; }
+.foot a { color: var(--ink2); border-bottom-color: rgba(180, 194, 216, .3); }
+@media (max-width: 760px) {
+  body { font-size: 17px; }
+  .wrap { width: calc(100% - 36px); }
+  .worlds { grid-template-columns: 1fr; }
+  .brand span { display: none; }
+  .hero { padding-top: 32px; }
+  .sec { padding-top: 40px; margin-top: 36px; }
+}
